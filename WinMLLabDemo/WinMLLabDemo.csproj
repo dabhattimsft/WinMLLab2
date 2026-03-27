@@ -8,7 +8,6 @@
     <UseWPF>true</UseWPF>
     <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
     <WindowsPackageType>None</WindowsPackageType>
-    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
@@ -27,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260101001" />
+    <PackageReference Include="Microsoft.Windows.AI.MachineLearning" Version="2.0.297-preview" />
     <PackageReference Include="System.Numerics.Tensors" Version="9.0.9" />
   </ItemGroup>
 
